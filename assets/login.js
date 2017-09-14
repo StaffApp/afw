@@ -119,4 +119,60 @@ $(document).ready(function() {
             $('.back-to-top').removeClass('back-to-top-is-visible');
         }
     });
+
+    $('#inner-main-opt-1').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-1-opt').show(200);
+    });
+    $('#inner-main-opt-2').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-2-opt').show(200);
+    });
+    $('#inner-main-opt-3').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-3-opt').show(200);
+    });
+    $('#inner-main-opt-4').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-4-opt').show(200);
+    });
+    $('#inner-main-opt-5').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-5-opt').show(200);
+    });
+    $('#inner-main-opt-6').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-6-opt').show(200);
+    });
+    $('#inner-main-opt-7').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-7-opt').show(200);
+    });
+    $('#inner-main-opt-8').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-8-opt').show(200);
+    });
+    $('#inner-main-opt-9').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-9-opt').show(200);
+    });
+    $('#inner-main-opt-10').click(function(){
+        $('#inner-main-opt').hide(200);
+        $('#inner-10-opt').show(200);
+    });
+    $('.preview-menu').click(function(){
+        $('#inner-main-opt').show(200);
+        $('#inner-1-opt').hide(200);
+        $('#inner-2-opt').hide(200);
+        $('#inner-3-opt').hide(200);
+        $('#inner-4-opt').hide(200);
+        $('#inner-5-opt').hide(200);
+        $('#inner-6-opt').hide(200);
+        $('#inner-7-opt').hide(200);
+        $('#inner-8-opt').hide(200);
+        $('#inner-9-opt').hide(200);
+        $('#inner-10-opt').hide(200);
+    });
+
+
 });
