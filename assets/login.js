@@ -72,7 +72,51 @@ $(document).ready(function() {
     }, logoutPhase1);
   });
 
-  $(document).on("click", "#moreOpt", function(e) {
-    $("#accordion").addClass('display-block');
+  $('.clickeable').click(function(){
+    $('.material-design-hamburger__icon').trigger("click");
   });
+
+
+  $('#linktoprod').click( function() {
+     $('html, body').animate({
+          scrollTop: $('#section-produccion').offset().top
+     }, 400);
+   });
+   $('#linktoadm').click( function() {
+      $('html, body').animate({
+           scrollTop: $('#section-administracion').offset().top
+      }, 400);
+    });
+    $('#linktocrea').click( function() {
+       $('html, body').animate({
+            scrollTop: $('#section-creativa').offset().top
+       }, 400);
+     });
+     $('#linktoprensa').click( function() {
+        $('html, body').animate({
+             scrollTop: $('#section-prensa').offset().top
+        }, 400);
+      });
+      $('#linktocomer').click( function() {
+         $('html, body').animate({
+              scrollTop: $('#section-comercial').offset().top
+         }, 400);
+       });
+       $('#linktodise').click( function() {
+          $('html, body').animate({
+               scrollTop: $('#section-diseño').offset().top
+          }, 400);
+        });
+
+        $('.back-to-top').click(function(){
+          $('html,body').animate({ scrollTop: 0 }, 400);
+     });
+
+     $(window).scroll(function() {
+       if ($(window).scrollTop() > 700) {
+            $('.back-to-top').addClass('back-to-top-is-visible');
+        } else {
+            $('.back-to-top').removeClass('back-to-top-is-visible');
+        }
+    });
 });
