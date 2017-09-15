@@ -513,3 +513,19 @@ a:hover{
 #inner-1-opt,#inner-2-opt,#inner-3-opt,#inner-4-opt,#inner-5-opt,#inner-6-opt,#inner-7-opt,#inner-8-opt,#inner-9-opt,#inner-10-opt{
   display: none;
 }
+#inner-main-opt div p{
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  margin-bottom: 0;
+
+}
+.modal-inner-btn{
+  width: 100%;
+
+}
+.par{
+  background-color: #fffdd9;
+}
+.impar{
+  background-color: #e5e2ac;
+}
