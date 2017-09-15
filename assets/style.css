@@ -521,7 +521,7 @@ a:hover{
 }
 .modal-inner-btn{
   width: 100%;
-
+  cursor: pointer;
 }
 .par{
   background-color: #fffdd9;
